@@ -1,0 +1,443 @@
+/*nastaveni pro sidebar*/
+@media(max-width: 855px){
+  .hidenavbar{
+      display: none;
+  }
+  .menubtn{
+      display: block;
+  }
+}
+
+@media(max-width: 855px){
+  .sidebar{
+      width: 40%;
+  }
+}
+/*nastaveni pro sidebar*/
+
+
+@media (max-width: 1440px){
+    .mapa{
+        margin-left: 45%;
+    }
+}
+@media (max-width: 1089px){
+
+    .nadpismain{
+        position: relative;
+        top: 30%;
+      }
+
+
+    .paragraf1{
+        margin-top: 25%;
+      }
+
+      .odkaznarezervci{
+        margin-top: 10%;
+      }
+
+      .nadpisonas{
+        margin-top: 12%;
+      }
+
+
+    .nadpisnaseprace{
+    position: relative;
+    top: 9%;
+    margin-left: 13%;
+   }  
+
+    .tex1{
+        position: relative;
+        margin-left: 13.3%;
+        top: -14%;
+      }
+
+      .obr1{
+        position: relative;
+        left: 45%;
+      }
+
+      .obr2{
+        height: 23vh;
+        width: 31vh;
+      }
+
+      .sectiononas{
+        height: 180vh;
+    }
+    
+    .nadpisnasprogram{
+        margin-top: 12%;
+      }
+
+      .sectionprogram{
+        height: 140vh;
+    }
+
+    .popup.active .content{ 
+        transform: translate(-60%, -50%) scale(1);
+      }
+
+      .popup .content{  
+      transform: translate(-21%, -52%) scale(0);
+      }
+
+      header{
+        position: relative;
+        top: 35%;  
+      }
+
+      .odkaznarezervci2{
+        margin-top: 30%;
+      }
+
+      .containerkontakty{
+        position: relative;
+        left: 15%;
+        top: 35%;
+      }
+
+      .mapa{
+        margin-left: 45%;
+        margin-top: -2%;
+        height: 50vh;
+        width: 60vh;
+      }
+
+      .nadpiskontakty h2{
+        font-size: 4vh;
+      }
+      .nadpisadresa h2{
+        font-size: 4vh;
+      }
+      .nadpisoteviracicasy h2{
+        font-size: 4vh;
+      }
+      .nadpisadresa{
+         margin-top: 2%;
+      }
+      .nadpisoteviracicasy{
+        margin-top: 2%;
+      }
+
+      .mapa{
+        position: relative;
+        top: -5%;
+        margin-left: 40%;
+      }
+
+      .nadpiskontakty{
+        position: relative;
+        left: 15%;
+      }
+      .nadpisadresa{
+        position: relative;
+        left: 15%;
+      }
+      .nadpisoteviracicasy{
+        position: relative;
+        left: 15%;
+      }
+}
+
+@media (max-width: 941px) {
+    .sectiononas{
+        width: 100%;
+        height: 220vh;
+    }
+
+    .italianflag{
+        margin-right: 10%;
+      }
+
+      .paragraf1{
+        margin-top: 30%;
+      }
+
+      .nadpisonas{
+        margin-top: 15%;
+      }
+
+    .obr1{
+        position: relative;
+        top: 15%;
+        left: 25%;
+    }
+    
+    .tex1{
+        position: relative;
+        text-align: center;
+        margin-left: 35.5%;
+        top: 15%;
+        width: 30%;
+      }
+
+
+      .nadpisnasejidlo{
+        margin-top: 40%;
+
+      }
+   
+      .obr2{
+        height: 22vh;
+        width: 28vh;
+      }
+
+      .nadpisnasprogram{
+        margin-top: 15%;
+      }
+
+      .popup .content{  
+      width: 50vh;
+      height: 130vh;
+      }
+
+      .popup.active .content{ 
+        transform: translate(-80%, -50%) scale(1);
+      }
+
+      .btntentotyden {
+        margin-top: 10%;
+        }
+
+        .odkaznarezervci2{
+          margin-top: 40%;
+        }
+
+        .sectionkontakty{
+          height: 150vh;
+      }
+
+        
+  
+        .obr1{
+          position: relative;
+          left: 27%;
+        }
+
+        .tex1{
+          margin-left: 34%;
+        }
+  
+}
+@media (max-width: 768px) {
+
+  .sectionkontakty{
+    height: 170vh;
+}
+  .obr1{
+    position: relative;
+    left: 25%;
+  }
+
+  .tex1{
+    position: relative;
+    left: 5%;
+  }
+
+
+  .mapa{
+    position: relative;
+    top: 7%;
+    left: -18%;
+  }
+ 
+  .nadpisnaseprace{
+    position: relative;
+    top: 12%;
+    margin-left: 40%;
+   }  
+
+   .nadpiskontakty{
+    position: relative;
+    top: 10%;
+    left: 37%;
+    text-align: center;
+  }
+  .nadpisadresa{
+    position: relative;
+    top: 10%;
+    left: 37%;
+    text-align: center;
+  }
+  .nadpisoteviracicasy{
+    position: relative;
+    top: 48%;
+    left: 37%;
+    text-align: center;
+  }
+
+}
+@media (max-width: 693px){
+
+  .reviews {
+    gap: 10%;
+  }
+
+  .nadpisnaseprace{
+    position: relative;
+    top: 9%;
+    margin-left: 38%;
+   } 
+
+   .obr1{
+    position: relative;
+    top: 10%;
+    left: 20%;
+  }
+
+  .tex1{
+    position: relative;
+    top: 10%;
+    margin-left: 32%;
+  }
+
+  .popup.active .content{ 
+    transform: translate(-140%, -100%) scale(0.9);
+  }
+
+  .popup .content{  
+  width: 27vh;
+  height: 70vh;
+  transform: translate(-5%, -55%) scale(0);
+
+  }
+
+  .popup .close-btn{ 
+    position: relative;
+    top: 15%;
+    left: 30%;
+    }
+
+  
+}
+
+@media(max-width: 656px){
+
+
+  .nadpismain{
+    font-size: 5vh;
+  }
+
+  .paragraf1{
+    margin-top: 40%;
+    font-size: 3vh;
+  }
+
+  .nadpisonas{
+    margin-top: 22%;
+  }
+
+  .obr1{
+    position: relative;
+    left: 24%;
+    width: 50vh;
+    height: 35vh;
+  }
+
+  .container-obrazky2{
+    margin-top: 10%;
+  }
+
+  .obr2{
+    height: 20vh;
+    width: 25vh;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+  }
+
+  .nadpiscosionaslidimysli{
+    font-size: 4vh;
+  }
+
+  .reviews {
+    gap: 4%;
+  }
+
+  .nadpisnasprogram{
+    margin-top: 20%;
+    font-size: 6.5vh;
+  }
+
+  .nadpiskazdytzden{
+    margin-top: 20%;
+    font-size: 4vh;
+  }
+
+  .popup.active .content{ 
+    transform: translate(-95%, -100%) scale(0.8);
+  }
+
+
+  .menu{
+    height: 100vh;
+    width: 80vh;
+
+  }
+
+  .xuj{
+      font-size: 3vh;
+      font-weight: 700;
+}
+
+.gavno{
+    font-size: 5vh;
+    font-weight: 700;
+}
+
+  .odkaznarezervci2{
+    margin-top: 50%;
+  }
+
+  .countdown{
+      font-weight: 200;
+}
+
+.nadpisadresa{
+  position: relative;
+  left: 35%;
+  width: 30%;
+}
+
+.mapa{
+  position: relative;
+  left: -22%;
+}
+
+.nadpisoteviracicasy{
+  width: 30%;
+}
+ 
+}
+
+@media(max-width: 600px){
+
+
+  .nadpisnaseprace{
+    margin-left: 35%;
+   } 
+
+   .obr1{
+    left: 20%;
+  }
+
+  .nadpisadresa{
+    position: relative;
+    left: 30%;
+    width: 40%;
+  }
+
+  .mapa{
+    left: -24%;
+  }
+
+  .tex1{
+    position: relative;
+    left: 2%;
+  }
+
+
+}

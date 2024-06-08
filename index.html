@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--link aby FAQ fungovalo-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <!--link aby FAQ fungovalo-->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="indexresponsive.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="rezervace.php">
+    <link rel="stylesheet" href="spojenisdatabazi.php">
+
+
+     <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
+     <!--google fonts-->
+
+</head>
+<body>
+
+  
+
+
+  <!--navbar-->
+  <nav>
+    <ul class="sidebar">
+                                     <!--link na krizek pro zavreni sidebaru-->
+      <li onclick=closeSidebar()><a><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+       
+           <!--prominte za ten inline nejste muj vrah-->
+      <li style="background-color: darkgreen;"><a href="#rezervace" style="color: black;">REZERVACE</a></li>
+      <li style="background-color: white;"><a href="#onas" style="color: black;">O NAS</a></li>
+      <li style="background-color: darkred;"><a href="#program" style="color: black;">PROGRAM</a></li>
+           
+
+      <li><a href="#degustacevina">DEGUSTACE VÍNA</a></li>
+      <li><a href="#kontakty">KONTAKTY</a></li>
+      
+    </ul>
+
+     <ul>
+
+      <li><a href="#hlavni" class="nohover"><img src="logo.png" alt="" class="logo"></a></li>
+       
+      <div class="italianflag">   <!--pardon bylo to fakt naposled-->
+      <li class="hidenavbar" style="background-color: darkgreen; width: 16vh;"><a href="#rezervace" style="color: black;">REZERVACE</a></li>
+      <li class="hidenavbar" style="background-color: white; width: 16vh;"><a href="#onas" style="color: black;">O NAS</a></li>
+      <li class="hidenavbar" style="background-color: darkred; width: 16vh;"><a href="#program" style="color: black;">PROGRAM</a></li>
+      </div>
+
+      <li class="hidenavbar"><a href="#degustacevina">DEGUSTACE VÍNA</a></li>
+      <li class="hidenavbar"><a href="#kontakty">KONTAKTY</a></li>  <!--link na hambac pro otevreni sidebaru-->
+      <li class="menubtn" onclick=openSidebar()><a><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+    </ul>
+</nav>
+  <!--navbar-->
+
+
+
+<!--sekce main-->
+<section class="sectionmain"  id="hlavni">
+  
+  <!--nadpis a text pod-->      
+
+  <h1 class="nadpismain">Degustace s De Italians</h1>
+  <p class="paragraf1">Poznejte chuťovou kulturu Itálie</p>
+ 
+  <!--nadpis a text pod-->       
+  
+        <!--odkaz na rezervaci-->
+        <a href="#rezervace" class="odkaznarezervci">REZERVACE</a>
+        <!--odkaz na rezervaci-->
+   
+</section>
+<!--sekce main-->
+
+
+
+<!--sekce onas-->
+<section class="sectiononas" id="onas">
+
+
+<!--cernypetr-->
+  <div class="blokonas">
+    <h2 class="nadpisonas">O nás</h2>
+</div>
+<!--cernycik...-->
+
+
+
+<!--nadpis-->
+<h1 class="nadpisnaseprace">Naše práce</h1>
+<!--nadpis-->
+
+     <!--obrazek pod nadpisem-->
+    <img src="sekceonasobrazek.jpg" alt="" class="obr1">
+     <!--obrazek pod nadpisem-->
+
+
+    <!--text vedle obrazku-->
+    <p class="tex1">Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>Quos laboriosam eum recusandae nam, excepturi iusto corporis ut unde,<br> debitis placeat ipsam minus libero rem labore repellendus adipisci <br>asperiores voluptatum dolores?</p>
+    <!--text vedle obrazku-->
+
+
+
+        <!--nadpis nase jidlo + obrazky pod tim-->
+        <h2 class="nadpisnasejidlo">Naše jídlo</h2>
+      
+        <!--ano mohl jsem to vymyslet i lip-->
+        <div class="container-obrazky2">
+          <img src="obrazekpronasejidla.jpg" class="obr2" alt="">
+          <img src="obrazekpronasejidla.jpg" class="obr2" alt="">
+          <img src="obrazekpronasejidla.jpg" class="obr2" alt="">
+        </div>
+        <div class="container-obrazky2"> 
+          <img src="obrazekpronasejidla.jpg" class="obr2" alt="">
+          <img src="obrazekpronasejidla.jpg" class="obr2" alt="">
+          <img src="obrazekpronasejidla.jpg" class="obr2" alt="">
+        </div>
+         <!--nadpis nase jidlo + obrazky pod tim-->
+
+ </section>
+ <!--onas-->
+
+
+
+
+
+  <!--sekce rezenze-->
+ <section class="recenze">
+
+           <!--originalni nazev pro classu-->
+<h2 class="nadpiscosionaslidimysli">Co si o nás lidi myslí</h2>
+
+<!--3 recenze vedle sebe ne vole 5-->
+  <div class="reviews">
+    <div class="review">
+      <div class="rating">
+        <span class="star filled"></span>
+        <span class="star filled"></span>
+        <span class="star filled"></span>
+        <span class="star filled"></span>
+        <span class="star"></span>
+      </div>
+      <p>varej nahovno 1 hvezda</p>
+      <p>- petr zdomazlic</p>
+    </div>
+    <div class="review">
+      <div class="rating">
+        <span class="star filled"></span>
+        <span class="star filled"></span>
+        <span class="star filled"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+      </div>
+      <p>sem uz bych nesla nikdy</p>
+      <p>- karla gretenova</p>
+    </div>
+    <div class="review">
+      <div class="rating">
+        <span class="star filled"></span>
+        <span class="star filled"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+        <span class="star"></span>
+      </div>
+      <p>jo jde to jíst</p>
+      <p>- emil basta</p>
+    </div>
+  </div>
+<!--3 recenze vedle sebe ne vole 5-->
+
+
+ </section>
+<!--sekce rezenze-->
+
+
+
+
+
+
+     <!--sekce program-->
+     <section class="sectionprogram" id="program"> 
+
+      <!--cerny blok nahore-->
+        <div class="bloknasprogram">
+      <!--cerny blok nahore-->
+    
+          <!--nadpis--><!--VAU!!!!-->
+          <h2 class="nadpisnasprogram">Náš program</h2>
+        </div>
+          <!--nadpis-->
+
+      
+
+          <!--blok s tlacitkem a vyskakovacim menu-->
+          <!--nechapu co jsem mel tady v planu mohl jsem to udelat jak vsichni a nesrat se s tim-->
+          <h2 class="nadpiskazdytzden">Každý týden nové menu</h2>
+      
+          
+          <p class="textcontainer">Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br>
+            Dicta, id! Odio, placeat deleniti reiciendis quam similique<br>
+            ipsam recusandae, veritatis nesciunt molestiae, consectetur<br>
+            possimus facilis soluta tenetur dignissimos harum sequi necessitatibus!
+          </p>
+       
+
+
+        <div class="containerbtn">
+          <button onclick="togglePopup()" class="btntentotyden">Tento týden</button> 
+          <!--blok s tlacitkem a vyskakovacim menu-->
+        </div>
+
+
+          <!--debilni menu-->
+              <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                    <div class="close-btn" onclick="togglePopup()">&times;</div>
+
+                    <div class="menu">
+                      <h1 class="nadpis">Morské pochoutky</h1> 
+                      <h2 class="podnadpis">Starters</h2> 
+                      <p>- Ostre saláty s mořskými plody -</p> 
+                      <p>- Tatarák z tuňáka s cibulí a bylinkami -</p> 
+                      <p>- Rybí polévka s citrónem a koriandrem -</p> 
+                      <h2 class="podnadpis">Sides</h2> 
+                      <p>- Brambory s česnekovou omáčkou -</p> 
+                      <p>- Grilované zeleninové kořeny -</p> 
+                      <p>- Rýže s kurkumou a kokosovým mlékem -</p> 
+                      <h2 class="podnadpis">Entrees</h2> 
+                      <p>- Grilované lososové filety s rajčatovou omáčkou a zeleninou -</p> 
+                      <p>- Rybí tikka masala s kořeněnou rýží -</p> 
+                      <p>- Grilované gambáky s chilli a citronovou omáčkou a se salátem -</p> 
+                      <h2 class="podnadpis">Desserts</h2> 
+                      <p>- Tiramisu s mořskými plody -</p> 
+                      <p>- Čokoládový mousse s ořechy a vanilkovým zmrzlinou -</p> 
+                      <p>- Sorbet z citrusů -</p> 
+                      <h2 class="podnadpis">Drinks</h2> 
+                      <p>- Víno z červeného hrozného -</p> 
+                      <p>- Pivo z místního pivovaru -</p> 
+                      <p>- Čerstvý čaj nebo káva -</p> 
+                  </div>    
+
+                    </div>
+                </div>
+             <!--debilni menu-->
+
+     
+     </section>
+     <!--sekce program-->
+
+
+
+
+
+
+     <!--sekce degustace vína-->
+     <section class="sectiondegustacevina" id="degustacevina">
+
+ <!--countdown s nadpisem-->
+      <header>
+        <div class="content">
+           <!--uz jsem liny predelavat nazvy pro classy-->
+          <h1 class="xuj">Degustace vína s DeItalians</h1>
+          <h2 class="gavno">MÍSTA JSOU OMEZENA</h2>
+          <div class="countdown"> 00 : 00 : 00 : 00 </div>
+        </div>
+      </header>
+  <!--countdown s nadpisem-->
+
+
+<!--tlacitko na okaz odkaz rezervace-->
+      <a href="#rezervace" class="odkaznarezervci2">REZERVACE</a>
+<!--tlacitko na okaz odkaz rezervace-->
+      
+     </section>
+     <!--sekce degustace vína-->
+
+
+
+
+     <!--sekce kontakty-->
+     <section class="sectionkontakty" id="kontakty">
+
+
+      <!--cernyblok-->
+  <div class="blokonas">
+    <h2 class="nadpisonas">Kontakty</h2>
+</div>
+<!--cernyblok-->
+
+
+   <!--blok kontakty-->
+      <div class="nadpiskontakty">
+      <h2>Kontakty</h2>
+      <ol>
+      <p>Majitel:</p>
+      <p>Manažer:</p>
+      <p>E-mail:</p>
+      </ol>
+     </div>
+
+     <div class="nadpisadresa">
+     <h2>Kde nás najdete</h2>
+     <ol>
+      <p>Na bubnech 25</p>
+    </ol>
+     </div>
+ 
+     <div class="nadpisoteviracicasy">
+     <h2>Otevírací časy</h2>
+     <ol>
+     <p>Po-Pa 11:00 - 32:00</p>
+     <p>So 12:00 - 22:00</p>
+    </ol>
+    </div>
+    <!--blok kontakty-->
+     
+
+<!--mapa logicky-->
+   <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5063.518676634024!2d20.546676761293508!3d50.613009307810245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471793f80eac6da3%3A0x8be7a35ef52b41c4!2sKokot%2C%20Polsko!5e0!3m2!1scs!2scz!4v1716318336697!5m2!1scs!2scz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!--mapa-->
+     
+
+      </section>
+      <!--sekce kontakty-->
+
+
+
+
+
+        <!--sekce rezervace-->
+<section class="sectionrezervace" id="rezervace">
+  
+<!--nadpis rezervace-->
+<h1 class="nadpisrezervace">Rezervujte si místo</h1>
+  <div class="formular">
+    <!--formular-->
+
+    <form id="bookingForm">
+      <label for="name">Jméno:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Číslo:</label>
+      <select id="countryCode" name="countryCode">
+          <option value="+420">cz CZ +420</option>
+          <option value="+1">🇺🇸 USA +1</option>
+          <option value="+44">🇬🇧 UK +44</option>
+          <!-- muzeme dodat cisla podle toho jak se nam bude libit -->
+      </select>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="guests">Počet lidí:</label>
+      <input type="number" id="guests" name="guests" min="1" max="10" required>
+
+      <label for="date">Datům:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time">Čas:</label>
+      <input type="time" id="time" name="time" min="19:00" max="22:00" required>
+
+      <label for="preference">Vyberte typ degustace:</label>
+      <select id="preference" name="preference" required>
+          <option value="food">Jídlo</option>
+          <option value="wine">Víno</option>
+      </select>
+
+      <label for="comments">Máte ještě něco na mysli:</label>
+      <textarea id="comments" name="comments"></textarea>
+
+      <button type="submit">Odeslat</button>
+  </form>
+   
+
+    
+<!--formular-->
+
+
+    
+  </div>
+
+</section>
+ <!--sekce rezervace-->
+
+ <section class="sekcefaq">
+<h2 class="dotazy">Často kladené otázky</h2>
+
+
+  <div class="wrapper">
+    <!-- prvni rozbalovaci -->
+    <div class="parent-tab">
+      <input type="radio" name="tab" id="tab-1">
+      <label for="tab-1">
+        <span>Je bla vla bla bla va</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <!-- text uvnitr -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+      </div>
+    </div>
+
+    <!-- prvni rozbalovaci -->
+    <div class="parent-tab">
+      <input type="radio" name="tab" id="tab-2">
+      <label for="tab-2">
+        <span>Je bla vla bla bla va</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <!-- text uvnitr -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+      </div>
+    </div>
+
+    <!-- druhy rozbalovaci -->
+    <div class="parent-tab tab-3">
+      <input type="radio" name="tab" id="tab-3">
+      <label for="tab-3" class="tab-3">
+        <span>Je bla vla bla bla va</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <!-- text uvnitr -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+      </div>
+    </div>
+
+    <!-- treti rozbalovaci -->
+    <div class="parent-tab">
+      <input type="radio" name="tab" id="tab-6">
+      <label for="tab-6">
+        <span>Je bla vla bla bla va</span>
+        <div class="icon"><i class="fas fa-plus"></i></div>
+      </label>
+      <div class="content">
+        <!-- text uvnitr -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing thelit. Quam, repellendus facere, id porro magnam blanditiiss quoteos dolores ratione quidem ipsam esse quos pariatur, repellat obcaecati!</p>
+      </div>
+    </div>
+  </div>
+
+<!--footer-->
+  <footer>
+    <p>&copy; 2024 DeItalians</p>
+    <ul>
+      <li><a href="#onas">O nás</a></li>
+      <li><a href="#kontakty">Kontakty</a></li>
+      <li><a href="#hlavni">Hlavni</a></li>
+    </ul>
+  </footer>
+  <!--footer-->
+
+ </section>
+    
+</body>
+</html>
